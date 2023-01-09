@@ -5,4 +5,9 @@ body {
   background-image: linear-gradient(to right, #A03093, #DC8BB6 );
   /* height: 100%; */
   font-family: "Quicksand";
+  overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,a{
+  margin: 0;
+  padding: 0;
 }

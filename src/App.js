@@ -1,13 +1,13 @@
-import './App.css';
-import QuizHome from './Components/Quiz/QuizHome';
-import Navbar from './Components/Navbar/Navbar';
+import { Routes,Route } from 'react-router-dom';
+import Home from './Pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-     <QuizHome/>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home/>} >
+
+      </Route>
+    </Routes>
   );
 }
 

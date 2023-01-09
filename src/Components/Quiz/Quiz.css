@@ -1,4 +1,10 @@
 .QuizHome{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.QuizInner{
     width: 100%;
     max-height: 100vh;
     max-width: 540px;
@@ -8,11 +14,7 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-.Quizinner{
-    max-height: 100%;
-}
+    justify-content: center;}
 .active-number{
     font-size: 30px;
     color:#A03093 ;
@@ -20,7 +22,7 @@
 }
 .Question-number{
     font-size: 18px;
-    color:#DC8BB6  ;
+    color:#DC8BB6 ;
     font-weight: 600;
 }
 .option-buttons{
@@ -41,11 +43,41 @@
     display: flex;
     margin: 0 auto;
     padding: 5px 10px;
-    background-color: #A03093;
+    background-color: #b335a4;
     color: white;
     font-size: 16px;
     font-weight: 500;
     text-align: center;
     align-items: center;
     justify-content: center;
+    transition: .5s ;
+}
+.my-btn:hover{
+    background-color: #b335a4;
+    color: white;
+}
+.finalResult{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.finalResultInner{
+    width: 100%;
+    max-width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    text-align: center;
+    padding: 15px 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+.resultInner > :nth-child(n){
+    padding: 3px 0px;
+}
+.resultInner > :nth-child(3){
+    color: #A03093;
+    font-weight: 700;
 }

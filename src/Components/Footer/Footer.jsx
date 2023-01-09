@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "./Navbar.css"
-function Navbar() {
+
+function Footer() {
     return (
         <div>
             <div>
@@ -9,7 +9,7 @@ function Navbar() {
                     <div className="container text-center">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link" aria-current="page" path="#">Quiz App</Link>
+                                <Link className="nav-link active" aria-current="page" path="#">Quiz App</Link>
                             </li>
                         </ul>
                     </div>
@@ -19,4 +19,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Footer
